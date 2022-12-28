@@ -11,8 +11,7 @@ c++ bsgs.cc -o bsgs && ./bsgs
 ## Feature
 - Support weierstrass form: $y^2 = x^3 + ax + b \bmod{p}$
 - Optional parameter of ellitpic curve: a, b, p
-- Automatically generate random point on curve (Legendre + T
-onelli-Shanks algorithm)
+- Automatically generate random point on curve (Legendre + Tonelli-Shanks algorithm)
 
 ## TODO
 - Replace naive API with NTL API to support big integer.
