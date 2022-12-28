@@ -21,6 +21,9 @@ onelli-Shanks algorithm)
 ## API
 ### Elliptic curve
 ```cpp
+// type of point on toy curve
+// always use point_t* (never point_t)
+using point_t = pair<zp_t, zp_t>; 
 // parameters of elliptic curve
 struct param_t {
 public:
