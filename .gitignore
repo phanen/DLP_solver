@@ -1,0 +1,6 @@
+
+*.out
+*.o
+
+prime_test.cc
+buf.*
